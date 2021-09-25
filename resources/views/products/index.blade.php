@@ -10,7 +10,7 @@
 
             <div class="pull-left">
 
-                <h2>Laravel 8 CRUD Example from scratch - ItSolutionStuff.com</h2>
+                <h2>Laravel 8 CRUD Example from scratch - Hola (Tutoria Sabado 25-sep-2021)</h2>
 
             </div>
 
