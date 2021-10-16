@@ -15,6 +15,8 @@ class ServicioController extends Controller
     public function index()
     {
         //
+        $servicios = Servicio::latest()->paginate(5);
+        return view('servicios.index', compact('servicios'))->with('i', (request()->input('page', 1) -1) * 5);
     }
 
     /**

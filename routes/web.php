@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\ServicioController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,6 +20,7 @@ Route::get('/', function () {
 });
 
 Route::resource('products', ProductController::class);
+Route::resource('servicios', ServicioController::class);
 
 Route::get('/dashboard', function () {
     return view('dashboard');
